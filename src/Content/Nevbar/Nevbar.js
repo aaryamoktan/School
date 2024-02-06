@@ -10,7 +10,7 @@ const Nevbar = () => {
       </div>
       <div className='ulli'>
         <ul>
-          <li>Home</li>
+          <li className='active'>Home</li>
           <li>Galalary</li>
           <li>About-us</li>
           <li>Our-Achivement</li>
