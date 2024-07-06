@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className=' w-full mt-40 flex flex-col md:flex-row justify-center gap-44'>
-                <div className=''>
+            <div className=' w-full bg-blue-600 text-white mt-40 flex flex-col md:flex-row items-center md:items-start justify-center gap-44'>
+                <div className='mt-10'>
                 <h1>My Aarya School</h1>
                 </div>
-                <div className='mb-10'>
+                <div className='mt-10'>
                     <h1>Quick Links</h1>
                     <ul className='mt-10'>
                     <li className=" cursor-pointer"><a href="#">HOME</a></li>
@@ -19,11 +19,11 @@ const Footer = () => {
                     </ul>
                     
                 </div>
-                <div className=''>
+                <div className='mt-10'>
                 <h1>Find Us On Map</h1>
                     
                 </div>
-                <div className=''>
+                <div className='mt-10'>
                     <h1>Latest News</h1>
                 </div>
             </div>
