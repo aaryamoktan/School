@@ -29,8 +29,7 @@ const Header = () => {
                    students under the direction of teachers. Most countries have  systems <br/> of formal  education, which is sometimes compulsory</p></div>
             <div>
                 <button className='mt-10 bg-blue-500 w-auto h-10 px-10 rounded-md text-white mb-1'><p className='font-semibold text-md md:text-xl '>View our Program</p></button>
-            </div>
-            
+            </div>    
         </div>
     </div>
     {/*latest news */}
@@ -73,8 +72,7 @@ const Header = () => {
                 </div>
                 <div className='mt-6 text-3xl flex justify-center'>
                     <p className='font-serif'> Father Day of 2024</p>
-                </div>
-                
+                </div>  
             </div>
             <div className='w-[70%] md:w-[30%]  h-[50vh]  rounded-xl  p-2'>
             <div className='w-full h-[65%]'>
@@ -93,9 +91,7 @@ const Header = () => {
                 <div className='mt-6 text-3xl flex justify-center'>
                     <p className='font-serif'> Sports Meets of 2024</p>
                 </div>
-            </div>
-            
-            
+            </div>   
         </div>
     </div>
     <div className='w-full h-auto'>
