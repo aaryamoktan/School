@@ -22,10 +22,10 @@ const Top = () => {
             </div>
             <div>
                 <ul className='flex ml-4 space-x-2  '>
-                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'>Virtual Tour</p></button></li>
-                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'>Student Login</p></button></li>
-                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'>Online Library</p></button></li>
-                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'>Registration  Form</p></button></li>
+                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'><a href="/">Virtual Tour</a></p></button></li>
+                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'><a href="/Studentloin">Student Login</a></p></button></li>
+                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'><a href="/OnlineLabirary">Online Library</a></p></button></li>
+                    <li><button className='bg-blue-700 w-auto h-[4vh] hover:bg-black  rounded-md hidden md:block'><p className='px-6'><a href="/RefisterForm">Registration  Form</a></p></button></li>
                 </ul>
             </div>
             <div>

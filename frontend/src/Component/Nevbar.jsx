@@ -16,7 +16,7 @@ const Nevbar = () => {
           <li className="hidden md:block cursor-pointer"><a href="/">HOME</a></li>
           <li className="hidden md:block cursor-pointer"><a href="/About">ABOUT US</a></li>
           <li className="hidden md:block cursor-pointer"><a href="/Programs">PROGRAMS</a></li>
-          <li className="hidden md:block cursor-pointer"><a href="#">FACULTY</a></li>
+          <li className="hidden md:block cursor-pointer"><a href="/Faculty">FACULTY</a></li>
           <li className="hidden md:block cursor-pointer"><a href="/Gallary">EVENTS & GALLERY</a></li>
           <li className="hidden md:block cursor-pointer"><a href="/Contact">CONTACT US</a></li>
         </ul>

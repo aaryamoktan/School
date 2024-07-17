@@ -6,8 +6,10 @@ import Studentloin from "./Page/Studentloin"
 import Contact from "./Page/Contact"
 import RefisterForm from "./Page/RefisterForm"
 import Programs from "./Page/Programs"
+import Faculty from "./Page/Faculty"
 import About from "./Page/About"
 import Gallary from "./Page/Gallary"
+import OnlineLabirary from "./Page/OnlineLabirary"
 import {BrowserRouter, Route,Routes } from "react-router-dom"
 function App() {
   return (
@@ -24,10 +26,8 @@ function App() {
       <Route path="/Programs" element={<Programs/>}/>
       <Route path="/About" element={<About/>}/>
       <Route path="/Gallary" element={<Gallary/>}/>
-      <Route path="/" element={<Header/>}/>
-      <Route path="/" element={<Header/>}/>
-      <Route path="/" element={<Header/>}/>
-      <Route path="/" element={<Header/>}/>
+      <Route path="/Faculty" element={<Faculty/>}/>
+      <Route path="/OnlineLabirary" element={<OnlineLabirary/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
