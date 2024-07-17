@@ -13,12 +13,12 @@ const Nevbar = () => {
       <div className='w-full h-14 bg-transparent flex px-10 justify-between items-center md:px-14'>
         <div className='text-2xl text-indigo-500 font-bold' >School</div>
         <ul className=' flex space-x-10 font-semibold '>
-          <li className="hidden md:block cursor-pointer"><a href="#">HOME</a></li>
-          <li className="hidden md:block cursor-pointer"><a href="#">ABOUT US</a></li>
-          <li className="hidden md:block cursor-pointer"><a href="#">PROGRAMS</a></li>
+          <li className="hidden md:block cursor-pointer"><a href="/">HOME</a></li>
+          <li className="hidden md:block cursor-pointer"><a href="/About">ABOUT US</a></li>
+          <li className="hidden md:block cursor-pointer"><a href="/Programs">PROGRAMS</a></li>
           <li className="hidden md:block cursor-pointer"><a href="#">FACULTY</a></li>
-          <li className="hidden md:block cursor-pointer"><a href="#">EVENTS & GALLERY</a></li>
-          <li className="hidden md:block cursor-pointer"><a href="#">CONTACT US</a></li>
+          <li className="hidden md:block cursor-pointer"><a href="/Gallary">EVENTS & GALLERY</a></li>
+          <li className="hidden md:block cursor-pointer"><a href="/Contact">CONTACT US</a></li>
         </ul>
         <div onClick={showmenu} className=" md:hidden cursor-pointer">
        
