@@ -10,7 +10,7 @@ const Contact = () => {
       <div className=' brightness-100 bg-blue-100' >
        <form>
         <div className=' flex flex-col justify-center items-center'>
-          <h1 className='text-5xl font-serif mt-[15%] ml-32 text-slate-700'>Contact Us</h1>
+          <h1 className='text-5xl font-serif mt-[15%] ml-32 text-slate-700'>ContactUs</h1>
           <div className='flex flex-col gap-7 mt-10'>
             <input type="text" className='border-black w-[200%] h-[5vh] border-solid-10' placeholder='Your name'/>
             <input type="Email" className='border-black w-[200%] h-[5vh] border-solid-10' placeholder='Your Email'/>
